@@ -1,0 +1,116 @@
+## Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Compilación
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## Archivos de depuración y build
+*.pidb
+*.svclog
+*.pdb
+*.mdb
+*.tlh
+*.tli
+*.tmp
+*.tmp_proj
+*.log
+*.tlog
+*.cache
+*.ilk
+*.obj
+*.idb
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+
+## Archivos de test
+TestResult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+*.testsettings
+*.vsmdi
+*.trx
+
+## Paquetes
+*.nupkg
+*.snupkg
+*.nuspec
+*.psmdcp
+# Excluir contenido descargado de NuGet, pero no el archivo .config
+packages/
+!packages/*.config
+
+## Archivos de publicación
+publish/
+*.publishsettings
+
+## Archivos generados por VS
+*.dbmdl
+*.bak
+*.backup
+*.ldf
+*.ndf
+*.sql
+*.sqlproj.user
+
+## Archivos de Resharper/CodeRush u otros plugins
+_ReSharper*/
+*.DotSettings.user
+*.DotSettings
+*.cr/
+*.ncrunchsolution
+*.ncrunchproject
+*.ncrunchresults
+*.nunit
+
+## Rider (JetBrains)
+.idea/
+
+## Configuración de usuario
+*.rsuser
+*.suo
+*.user
+*.userprefs
+
+## Archivos de estilo y cache
+*.cachefile
+*.svd
+
+## Archivos de Microsoft Azure
+csx/
+*.build.csdef
+
+## Archivos de coverage
+*.coverage
+*.coveragexml
+
+## Archivos de profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+## Archivos de Office/temporales (a veces aparecen en repositorios)
+~$*
+*.tmp
+*.docx
+*.xlsx
+*.pptx
+
+## Archivos de sistema
+[Tt]humbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+## Archivos de MacOS
+.DS_Store
+
+## Archivos de Linux
+*~

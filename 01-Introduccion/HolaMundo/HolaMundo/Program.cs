@@ -10,6 +10,9 @@ namespace HolaMundo
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Arriba el atlas");
+
+            Console.ReadKey();  // Para mantener abierta la consola
         }
     }
 }

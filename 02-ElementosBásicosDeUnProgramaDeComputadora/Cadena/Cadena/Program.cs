@@ -27,6 +27,13 @@ namespace Cadena
             Console.WriteLine("El resultado de la suma es: {0}", resultado);
 
 
+            Convert.ToSingle(entrada);
+            Single.Parse(entrada);
+
+            // Convertir cadena sin usar variables de tipo string
+            num2 = Convert.ToInt32(Console.ReadLine());
+
+
             
 
         }

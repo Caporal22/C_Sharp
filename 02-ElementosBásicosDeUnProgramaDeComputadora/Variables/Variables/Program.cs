@@ -10,14 +10,18 @@ namespace Variables
     {
         static void Main(string[] args)
         {
-            double precioCamisa = 399;
-            string colorCamisa = "Amarillo";
+            //double precioCamisa = 399;
+            //string colorCamisa = "Amarillo";
 
-            Console.WriteLine("El precio de la camisa es: {0} y su color es: {1}", precioCamisa, colorCamisa);
-            Console.WriteLine(precioCamisa);
+            //Console.WriteLine("El precio de la camisa es: {0} y su color es: {1}", precioCamisa, colorCamisa);
+            //Console.WriteLine(precioCamisa);
 
-            
+            string nombre;
+            Console.Write("Cómo te llamas: ");
+            nombre = Console.ReadLine();
 
+            // Saludamos al usuario
+            Console.WriteLine("Hola {0}, un placer", nombre);
         }
     }
 }
